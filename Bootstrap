@@ -1,0 +1,19 @@
+Bootstrap: docker
+From: bvlc/caffe:gpu
+
+# Usage:
+
+# (1) If you want to generate a writable image that you can add ~5 GB of 
+# files to later:
+
+# sudo singularity create --size 10000 caffe-gpu.img
+# sudo singularity bootstrap caffe-gpu.img Bootstrap
+
+# (2) If you want to create an image with the smallest possible size:
+# sudo singularity bootstrap caffe-gpu.img Bootstrap
+
+
+%post
+# Update list of packages and install packages for ease of use.
+apt-get update 
+apt-get install -y vim
