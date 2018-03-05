@@ -5,5 +5,5 @@ From: bvlc/caffe:gpu
 # Update list of packages and install packages for ease of use.
 apt-get update 
 apt-get install -y vim
-
+apt-get install -y tmux screen
 

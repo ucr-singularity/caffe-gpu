@@ -1,4 +1,5 @@
 # caffe-gpu
 Singularity recipe for docker://bvlc/caffe:gpu
 
-Adds vim.
+Adds vim, tmux, screen
+
