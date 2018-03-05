@@ -6,4 +6,4 @@ From: bvlc/caffe:gpu
 apt-get update 
 apt-get install -y vim
 apt-get install -y tmux screen
-
+apt-get install -y xterm
