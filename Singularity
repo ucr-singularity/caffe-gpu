@@ -16,6 +16,8 @@ apt-get install -y python-tk
 # and limitations.  
 pip install --no-cache-dir opencv-contrib-python
 
-# Installing imutils,dlib for FACES projectt
+# Installing imutils,dlib,progressbar for FACES projectt
 pip install --no-cache-dir imutils
 pip install --no-cache-dir dlib
+pip install progressbar2
+
