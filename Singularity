@@ -12,3 +12,6 @@ apt-get install -y xterm
 # See https://pypi.python.org/pypi/opencv-contrib-python for capabilities 
 # and limitations.  
 pip install --no-cache-dir opencv-contrib-python
+
+# Installing imutils for FACES projectt
+pip install --no-cache-dir imutils
