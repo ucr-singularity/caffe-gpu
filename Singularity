@@ -8,6 +8,9 @@ apt-get install -y vim
 apt-get install -y tmux screen
 apt-get install -y xterm
 
+# Install for tkinter
+apt-get install -y python-tk
+
 # OpenCV from pip, including contrib.  This makes the install MUCH faster.
 # See https://pypi.python.org/pypi/opencv-contrib-python for capabilities 
 # and limitations.  
