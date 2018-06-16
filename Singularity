@@ -11,7 +11,7 @@ apt-get install -y xterm
 	
 # Install for tkinter
 apt-get install -y python-tk
-#Instal dependencies for caffe
+#Install dependencies for caffe
 apt-get install -y libxcb-xfixes0-dev
 
 # OpenCV from pip, including contrib.  This makes the install MUCH faster.
@@ -23,4 +23,5 @@ pip install --no-cache-dir opencv-contrib-python
 pip install --no-cache-dir imutils
 pip install --no-cache-dir dlib
 pip install progressbar2
+pip install --no-cache-dir lmdb
 
