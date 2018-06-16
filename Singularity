@@ -22,6 +22,8 @@ pip install --no-cache-dir opencv-contrib-python
 # Installing imutils,dlib,progressbar for FACES projectt
 pip install --no-cache-dir imutils
 pip install --no-cache-dir dlib
-pip install progressbar2
+pip install --no-cache-dir progressbar2
 pip install --no-cache-dir lmdb
+pip install --no-cache-dir flask
+pip install --no-cache-dir flask_cors
 
