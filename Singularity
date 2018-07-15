@@ -26,4 +26,5 @@ pip install --no-cache-dir progressbar2
 pip install --no-cache-dir lmdb
 pip install --no-cache-dir flask
 pip install --no-cache-dir flask_cors
+pip install --no-cache-dir sklearn
 
